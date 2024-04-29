@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countryCard {
+  text-align: center;
+  width: calc(100% / 7);
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.countryCard img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.countryCard span {
+  display: block;
+}
